@@ -1,0 +1,191 @@
+.userInfo {
+  flex: 5;
+  background-color: #f1f4f7;
+}
+
+.userInfoTitle {
+  background-color: #e9ecf2;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #666;
+  font-size: 14px;
+}
+
+.userInfoIconTitle {
+  font-size: 25px !important;
+  color: #00bfff;
+}
+
+.userInfoWrapper {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+}
+
+.userInfoLeft {
+  flex: 1;
+  background-color: #2b3743;
+  padding: 20px;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+}
+
+.userInfoLeftImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userInfoLeftImg img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userInfoLeftTitle {
+  margin-top: 20px;
+  background-color: brown;
+  padding: 5px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.userInfoContactList {
+  margin-top: 15px;
+}
+.userInfoContactItem {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.userInfoIcon {
+  font-size: 20px !important;
+  margin-right: 10px;
+}
+
+.userInfoEducationList {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.userInfoEducationList > p {
+  margin-top: 5px;
+}
+
+.school {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.major {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.time {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.userInfoLeftSkill {
+  margin-top: 15px;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.userInfoLeftSkill p {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+/* /////////////////////////////////////////// */
+
+.userInfoRight {
+  flex: 2;
+  background-color: #ededed;
+  padding: 20px;
+}
+
+.userInfoRightHeader {
+  text-align: center;
+  height: 120px;
+  text-transform: uppercase;
+}
+
+.personName {
+  font-weight: 600;
+  font-size: 34px;
+}
+
+.jobPosition {
+  font-size: 20px;
+  font-weight: 400;
+  color: #222;
+}
+
+.userInfoRightTitle {
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #888;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2f3846;
+}
+
+.text {
+  margin-bottom: 10px;
+  color: #3c3c3c;
+}
+
+.userInfoProfile {
+  padding: 20px 0px;
+}
+
+.userInfoReview {
+  padding: 20px 0px;
+}
+
+.progressName {
+  color: #2f3846;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.userInfoReviewItem {
+  margin-bottom: 10px;
+}
+
+.userInfoButton {
+  margin: 40px 0px 20px 20px;
+}
+
+.userInfoButton span {
+  padding: 5px 10px;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.userInfoButton span:hover {
+  opacity: 0.8;
+}

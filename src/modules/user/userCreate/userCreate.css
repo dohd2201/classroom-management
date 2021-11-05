@@ -1,0 +1,23 @@
+.userCreate {
+  flex: 5;
+}
+
+.userCreateTitle {
+  background-color: #e9ecf2;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #666;
+  font-size: 14px;
+}
+
+.userCreateIconTitle {
+  font-size: 25px !important;
+  color: #00bfff;
+}
+
+.userCreateWrapper {
+  background-color: #fff;
+  /* margin: 20px; */
+  /* padding: 20px; */
+}

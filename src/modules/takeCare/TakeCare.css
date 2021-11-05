@@ -1,0 +1,18 @@
+.takeCare {
+  flex: 5;
+  background-color: #f1f4f7;
+}
+.takeCareTitle {
+  background-color: #e9ecf2;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #666;
+  font-size: 14px;
+}
+
+.takeCareIcon {
+  font-size: 25px !important;
+  color: #00bfff;
+}
+  

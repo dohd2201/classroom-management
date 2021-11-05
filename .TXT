@@ -1,0 +1,18 @@
+ const [fullName, setFullName] = useState("");
+  const [gender, setGender] = useState("");
+  const [startDate, setStartDate] = useState(new Date());
+  const [CCCD, setCCCD] = useState("");
+  const [university, setUniversity] = useState("");
+  const [majors, setMajors] = useState("");
+  const [skills, setSkills] = useState([]);
+  const [phone, setPhone] = useState("");
+  const [email, setEmail] = useState("");
+  const [facebook, setFacebook] = useState("");
+  const [detailAddress, setDetailAddress] = useState("");
+  const [province, setProvince] = useState({ id: "", name: "" });
+  const [district, setDistrict] = useState({ id: "", name: "" });
+  const [ward, setWard] = useState("");
+
+  const obj = {fullName,gender,startDate,CCCD,
+  university,majors,phone,skills,email,
+  facebook,detailAddress,province,district,ward}
